@@ -1,0 +1,27 @@
+{
+  "id": "endless-assistant-player",
+  "title": "The Endless Assistant / Player",
+  "version": "0.1.0",
+  "compatibility": { "minimum": "14", "verified": "14" },
+  "relationships": {
+    "requires": [
+      {
+        "id": "endless-assistant",
+        "type": "module"
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/player.css"
+  ],
+  "languages": [
+    {
+      "lang": "ru",
+      "name": "Русский",
+      "path": "lang/ru.json"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+/* ==========================================================================
+   The Endless Assistant - Player Shell Styles
+   ========================================================================== */
+
+.ea-player-shell-window {
+  display: flex;
+  flex-direction: column;
+}
+
+.ea-player-layout {
+  display: flex;
+  flex-direction: row;
+  gap: var(--ea-space-md);
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.ea-player-sidebar {
+  flex: 0 0 220px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ea-player-nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.ea-player-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.ea-player-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.ea-player-feature-mount {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
