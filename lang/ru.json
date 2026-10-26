@@ -1,7 +1,11 @@
 {
-  "ENDLESS.player.title": "Бесконечный ассистент: Игрок",
-  "ENDLESS.player.nav.home": "Главная",
-  "ENDLESS.player.home.title": "Главная панель",
-  "ENDLESS.player.home.welcome": "Добро пожаловать в ассистент игрока.",
-  "ENDLESS.player.empty": "Мастер пока не подключил модули для игроков"
+  "ENDLESS.controls.title": "Бесконечный ассистент",
+  "ENDLESS.controls.open": "Открыть ассистента",
+  "ENDLESS.errors.noAccess": "Недостаточно прав для доступа к функциям ГМа.",
+  "ENDLESS.errors.openFailed": "Не удалось открыть ассистента. Подробности в консоли (F12).",
+  "ENDLESS.errors.gmOnly": "Это действие доступно только ГМу.",
+  "ENDLESS.info.noShellRegistered": "Оболочка ассистента для вашей роли ещё не зарегистрирована.",
+  "ENDLESS.features.title": "Функции ассистента",
+  "ENDLESS.Settings.AllowAssistantGM.Name": "Помощник ГМа",
+  "ENDLESS.Settings.AllowAssistantGM.Hint": "Разрешить выделенным игрокам доступ к функциям ГМа ассистента."
 }

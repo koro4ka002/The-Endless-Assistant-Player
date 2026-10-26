@@ -1,0 +1,76 @@
+/* ==========================================================================
+   The Endless Assistant - Design Tokens (.ea-root)
+   Worn Steampunk Aesthetic
+   ========================================================================== */
+
+.ea-root {
+  /* Palette */
+  --ea-bg-graphite: #1b1612;
+  --ea-bg-surface: #241e19;
+  --ea-bg-raised: #2a221b;
+  --ea-bg-elevated: #2a221b;
+  --ea-bg-inset: #14110e;
+
+  --ea-brass: #b08d57;
+  --ea-brass-dark: #8c6e3f;
+  --ea-brass-light: #c9a96e;
+
+  --ea-copper: #b87333;
+  --ea-copper-dark: #915826;
+  --ea-copper-light: #d48b48;
+
+  --ea-patina: #4f8a83;
+  --ea-patina-dark: #3b6964;
+  --ea-patina-light: #63b0a7;
+
+  --ea-ivory: #e8dcc0;
+  --ea-ivory-muted: #b3a890;
+  --ea-ivory-dim: #827964;
+
+  --ea-danger: #a63a2a;
+  --ea-danger-hover: #c44735;
+
+  --ea-border: #3d3228;
+  --ea-border-color: #3d3228;
+  --ea-border-brass: rgba(176, 141, 87, 0.4);
+  --ea-shadow-panel: 0 8px 24px rgba(0, 0, 0, 0.7), inset 0 1px 0 rgba(232, 220, 192, 0.08);
+  --ea-shadow-inset: inset 0 2px 4px rgba(0, 0, 0, 0.6);
+
+  /* Typography (OFL Fonts with System Fallbacks) */
+  --ea-font-heading: "Playfair Display", "Georgia", "Times New Roman", serif;
+  --ea-font-text: "Roboto", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --ea-font-mono: "Fira Code", "Consolas", "Courier New", monospace;
+
+  --ea-font-size-sm: 12px;
+  --ea-font-size-md: 14px;
+  --ea-font-size-lg: 18px;
+  --ea-font-size-xl: 22px;
+
+  /* Spacing */
+  --ea-space-xs: 4px;
+  --ea-space-sm: 8px;
+  --ea-space-md: 16px;
+  --ea-space-lg: 24px;
+  --ea-space-xl: 32px;
+
+  /* Borders & Radii */
+  --ea-radius-sm: 3px;
+  --ea-radius-md: 6px;
+  --ea-radius-lg: 10px;
+
+  /* Transitions */
+  --ea-transition-fast: 0.15s ease;
+  --ea-transition-normal: 0.25s ease;
+
+  color: var(--ea-ivory);
+  font-family: var(--ea-font-text);
+  font-size: var(--ea-font-size-md);
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+.ea-root *,
+.ea-root *::before,
+.ea-root *::after {
+  box-sizing: border-box;
+}
